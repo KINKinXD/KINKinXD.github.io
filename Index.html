@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: iPix;
+            font-weight: normal;
+        }
+        html, body {
+            height: 100%;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .main {
+            margin-left: 15%; 
+            height: 100%; 
+            width: 100%;
+        }
+        .left{
+            position:absolute; 
+            top:0; 
+            left:0; 
+            background-color: rgba(255,112,83);
+            height: 100%;
+            width: 15%;
+        }
+        table {
+            font-size: 24px;
+            padding: 40px 10%;
+            line-height: 96px;
+            width: 100%;
+        }
+        .dot {
+            color: bisque;
+        }
+        .homepageLink {
+            margin: 500px 100px 10px;
+        }
+    </style>
+    <title>LearningHome</title>
+</head>
+<body>
+    <div>
+        <div class="left">
+            <table>
+                <tr>
+                    <td class="dot">〇</td>
+                    <td class="space">&nbsp;</td>
+                    <td class="menu">个人简历</td>
+                </tr>
+                <tr>
+                    <td class="dot">〇</td>
+                    <td class="space">&nbsp;</td>
+                    <td class="menu"><a href="/python.htm" target="menuFrame">python学习日志</a></td>
+                </tr>
+                <tr>
+                    <td class="dot">〇</td>
+                    <td class="space">&nbsp;</td>
+                    <td class="menu">c++学习日志</td>
+                </tr>
+                <tr>
+                    <td class="dot">〇</td>
+                    <td class="space">&nbsp;</td>
+                    <td class="menu">html&css</td>
+                </tr>
+                <tr>
+                    <td class="dot">〇</td>
+                    <td class="space">&nbsp;</td>
+                    <td class="menu">Arduino</td>
+                </tr>
+                <tr>
+                    <td class="dot">〇</td>
+                    <td class="space">&nbsp;</td>
+                    <td class="menu">友链</td>
+                </tr>
+            </table>
+            <div class="homepageLink">
+                <a href="http://mahiro.space">mahiro.space</a>
+            </div>
+        </div>
+        <div class="main">
+            <iframe id="menuFrame" name="menuFrame" src="/python.htm" style="overflow: visible；"
+                    scrolling="yes" frameborder="no">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
